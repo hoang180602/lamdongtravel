@@ -1639,6 +1639,15 @@ div#google_translate_element
   cursor: pointer;
 }
 
+.button__translate::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  top: -100px;
+  position: absolute;
+}
+
 .fixed-con {
   z-index: 9724790009779558 !important;
   background-color: #f7f8fc;
