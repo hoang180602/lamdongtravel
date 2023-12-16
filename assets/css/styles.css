@@ -293,6 +293,10 @@ div#google_translate_element
   width: 600px;
 }
 
+.information__desc img {
+  height: 800px;
+}
+
 .information__desc {
   display: flex;
 }
@@ -637,6 +641,8 @@ div#google_translate_element
   padding: 50px;
   color: rgb(132, 189, 0);
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__qr {
@@ -952,6 +958,14 @@ div#google_translate_element
   height: 100px;
 }
 
+.dichvu .dichvu__content ul li h2 {
+  min-height: 55px;
+}
+
+.dichvu .dichvu__content ul li p {
+  min-height: 192px;
+}
+
 /* blog */
 .blog {
   margin-top: 30px;
@@ -1108,6 +1122,10 @@ div#google_translate_element
 /* responsive */
 @media only screen and (max-width: 600px) {
   /* Áp dụng các kiểu CSS cho màn hình di động */
+
+  .information__desc img {
+    height: auto;
+  }
 
   .mobie {
     display: block;
