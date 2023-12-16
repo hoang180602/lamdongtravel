@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/* .mt {
+  margin-top: 0;
+} */
+
 .mobie {
   display: none;
 }
@@ -1434,6 +1438,10 @@ div#google_translate_element
   #mobie_nonee {
     display: none !important;
   }
+
+  .mt {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -1749,8 +1757,4 @@ div#google_translate_element
 
 .siding__baiviet2 {
   margin-top: -600px;
-}
-
-.mt {
-  margin-top: 30px;
 }
